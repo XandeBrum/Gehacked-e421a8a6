@@ -1,140 +1,118 @@
-.credit{
-    position: absolute;
-    left: 1311.69px;
-    top: 16px;
-}
-.sixnine{
-    position: absolute;
-    left: 1340.69px;
-    top: -3.69px;
-    font-size: 18.69px;
-}
-#logout {
-    position: absolute;
-    left: 1380.69px;
-    top: 18.69px;   
-    border-style: none;
-
-}
-
-.keuzen{
-    background-color: rgb(15, 15, 31);
-    display: flex;
-    flex-direction: column;
-    width: 2%;
-    position:absolute;
-    left:0;
-    top:59px;
-    padding-bottom: 404px;
-    padding-left: 8px;
-    padding-right: 19px;
-    padding-top: 20px;
-}
-.keuzen1{
-    margin-top: 30px;
-}
-.opties {
-   
-    border-style: none;
-}
-
-.module{
-    position: absolute;
-    left: 56.69px;
-    top: -10px;
-    font-size:69px;
-    background-color: rgb(31, 172, 182);
-    color: white;
-    padding-left: 70px;
-    padding-right: 1143.69px;
-    padding-bottom: 70px;
-    padding-top: 50px;
-}
 body {
-    font-family: monospace;
-    
-}
-.eerste{
-    position: absolute;
-    left: 150px;
-    top: 300px;
  
 }
-.tweede{
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+.credits{
+    display: flex;
+
+}
+.credit{
+    margin-right: 7px;
+}
+.punten {
+    margin-right: 20px;
+    margin-top: 4px;    
+}
+.main{
+    display: flex;
     position: absolute;
-    left: 669px;
-    top: 300px;
+    left: 0px;
+}
+
+
+.keuzen{
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 376px;
+    padding-top: 10px;
+    justify-content: space-evenly;
+    background-color: rgb(19, 39, 50);
+}
+
+
+.module{
+    margin-top: 10px;
+    margin-left:29px ;
+    margin-bottom: 1px;
+    padding-bottom: 0px;
+    font-size: 49px;
+    color: white;
+    font-family: sans-serif;
+    
+}
+
+.id{
+    opacity: 45%;
+}
+
+.naam{
+    opacity: 45%
+}
+
+.open{
+    opacity: 45%
+}
+.eentweedrie{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-left: -100px;
+    margin-top: 270px;
+    font-size: 20px;
+    font-family: sans-serif;
+    width: 100%;
+}
+
+.tweede{
+    margin-left: 300px;
+
 }
 .derde{
-    position: absolute;
-    left: 1100px;
-    top: 300px;
+    margin-left: 270px;
+
 }
-.bigyoink{
-    font-size: 20px;
+.block{  
+    top: 57px;
+    z-index: -1;
+
 }
-.id {
-    opacity: 50%;
+.house {
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-.naam {
-    opacity: 50%;
+.baseline{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-.open{
-    opacity: 50%;
+.star{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
-.lijninfo{
-    border-top: 1px solid black;
-    width: 1415.69px;
-    opacity: 10%;
+.checkbox{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.people{
+    padding-bottom: 15px;
+    padding-top: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
-.lijn1.lijninfo {
-
-    position: absolute;
-    top: 352.69px;
-    left: 120px;
- }
-.lijn2.lijninfo{
-    position: absolute;
-    top: 395px;
-    left: 120px;
-}
-.lijn3.lijninfo{
-    position: absolute;
-    top: 440px;
-    left: 120px;
-}
-.lijn4.lijninfo{
-    position: absolute;
-    top: 480px;
-    left: 120px;
-}
-
-.lijn5.lijninfo{
-    position: absolute;
-    top: 525.69px;
-    left: 120px;
-}
-
-.lijn6.lijninfo{
-    position: absolute;
-    top: 570px;
-    left: 120px;
-}
-
-.lijn7.lijninfo{
-    position: absolute;
-    top: 615px;
-    left: 120px;
-}
-.headerlijn {
-    position: absolute;
-    top: 2px;
-    left: 1369.69px;
-    border-left: 1px solid black; 
-    opacity: 10%;
-    height: 55px;
-}
-
-
-
+  
+  a:hover, a:active {
+    background-color: rgb(33, 68, 87);
+    height: auto;
+  }
